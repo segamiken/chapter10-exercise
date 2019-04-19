@@ -1,0 +1,546 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style:none;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.text-title {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+
+.text-title::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin:8px auto 0 auto;
+	background-color:#EC715F;
+}
+
+.text-contents {
+	font-size:16px;
+	color:#000000;
+	margin: 30px 0 30px 0;
+	text-align: center;
+}
+
+
+header {
+	width: 100%;
+	background-color: #EC715F;
+	height: 70px;
+}
+
+.header-contents {
+	width: 1024px;
+	margin:0 auto;
+}
+
+header img {
+	height: 70px;
+	float:left;
+}
+
+.nav {
+	float: right;
+	line-height: 70px;
+}
+
+.nav-item1 {
+	float: left;
+	font-size: 16px;
+	padding:0 30px;
+}
+
+.nav-item2 {
+	float: left;
+	font-size: 16px;
+	padding:0 30px;
+}
+
+.nav-item3 {
+	float: left;
+	font-size: 16px;
+	padding:0 30px;
+}
+
+.nav-item4 {
+	float: left;
+	font-size: 16px;
+	padding:0 30px;
+}
+
+.nav-list a {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+
+.main-visual {
+	position: relative;
+}
+
+.main-visual-img {
+	background-image: url(img/mv.png);
+	width:100%;
+	height: 650px;
+	background-position: center;
+	background-size: cover;
+}
+
+.visual-text {
+	position: absolute;
+	top:200px;
+	width: 100%;
+}
+
+.visual-text h1 {
+	font-size: 64px;
+	color: #FAFAFA;
+	margin-bottom:10px;
+	text-align: center;
+}
+
+.visual-text p {
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align: center;
+}
+
+.portfolio {
+	width: 100%;
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
+
+.portfolio-text {
+	width: 920px;
+	margin:0 auto;
+}
+
+
+.portfolio-image {
+	width: 920px;
+	margin:0 auto;
+}
+
+.box1 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.box2 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.box3 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+	float:left;
+	margin-bottom:10px;
+}
+
+.box4 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	float:left;
+	margin-right: 10px;
+}
+
+.box5 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	float:left;
+	margin-right: 10px;
+}
+
+.box6 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	float:left;
+}
+
+.feature {
+	width: 980px;
+	margin: 0 auto;
+	padding: 90px 0;
+}
+
+.feature-contents {
+	width: 980px;
+}
+
+.contents1 {
+	width: 320px;
+	float: left;
+	padding-right: 10px;
+}
+
+.contents2 {
+	width: 320px;
+	float: left;
+	padding-right: 10px;
+}
+
+.contents3 {
+	width: 320px;
+	float: left;
+}
+
+.feature-contents h2 {
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.feature-contents p {
+	font-size: 16px;
+	color:#000000;
+}
+
+.feature-contents i {
+	width: 320px;
+	font-size:60px;
+	text-align: center;
+}
+
+.profile {
+	width: 100%;
+	padding:90px 0;
+	background-color: #ECEFF1;
+}
+
+.profile-contents{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+.profile-img {
+	width:512px;
+	float: left;
+}
+
+.profile-detail {
+	width:512px;
+	float: left;
+}
+
+.myface {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-image: url(img/my-icon.jpg);
+}
+
+
+.myname {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.myname-p {
+	font-size: 16px;
+	color:#000000;
+	margin-bottom: 20px;
+}
+
+.myskills {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.myskills-p {
+	font-size: 16px;
+	color:#000000;
+}
+
+.contact {
+	width:100%;
+	padding: 90px 0;
+}
+
+.contact-contents {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.phone {
+	width: 50%;
+	float:left;
+}
+
+.sns {
+	width: 50%;
+	float: left;
+}
+
+.mailtell {
+	width: 130px;
+	margin:0 auto;
+}
+
+.mail, .tell{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.mailaddress, .tellnumber{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.sns-contents {
+	width: 170px;
+	margin: 0 auto;
+}
+
+.sns h2 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.fab {
+	font-size: 50px;
+}
+
+.fa-facebook-f, .fa-twitter {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+footer {
+	height:60px;
+	width:100%;
+	background-color: #EC715F;
+}
+
+footer h2 {
+	font-size: 16px;
+	color:#FAFAFA;
+	text-align: center;
+	line-height: 60px;
+}
+
+
+
+/* タブレット縦置きサイズ(768px)程度の画面の大きさ以下に適用される設定です */
+@media screen and (max-width:768px) {
+	header {
+		height: 50px;
+		width: 100%;
+	}
+
+	.header-contents {
+		width: 90%;
+	}
+	header img {
+		height: 50px;
+	}
+
+	.main-visual {
+		position: relative;
+	}
+
+	.main-visual-img {
+		background-image: url(img/code.png);
+		width:100%;
+		height: 650px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.visual-text {
+		position: absolute;
+		top:200px;
+		width: 100%;
+	}
+
+	.visual-text h1 {
+		font-size: 40px;
+	}
+
+	.visual-text p {
+		font-size: 18px;
+	}
+
+	.portfolio-text {
+		width: 90%;
+	}
+
+	.portfolio-image {
+		width: 90%;
+	}
+
+	.box1 {
+		display: none;
+		float:none;
+	}
+
+	.box2 {
+		float:none;
+		margin: 0 auto 10px;
+	}
+
+	.box3 {
+		display: none;
+		float:none;
+	}
+
+	.box4 {
+		float:none;
+		margin: 0 auto 10px;
+	}
+
+	.box5 {
+		display: none;
+		float:none;
+	}
+
+	.box6 {
+		float:none;
+		margin:0 auto;
+	}
+
+	.feature {
+		width: 100%;
+	}
+
+	.feature-text {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.feature-contents {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.contents1 {
+		float: none;
+		margin: 0 auto 10px;
+	}
+
+	.contents2 {
+		float: none;
+		margin: 0 auto 10px;
+	}
+
+	.contents3 {
+		float: none;
+		margin: 0 auto;
+	}
+
+
+	.profile-contents{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+
+	.profile-img {
+		width:90%;
+		float: none;
+		margin: 30px auto 20px;
+	}
+
+	.profile-detail {
+		width:90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.myname {
+		text-align: center;
+	}
+
+	.myname-p {
+		text-align: center;
+	}
+
+	.myskills {
+		text-align: center;
+	}
+	.myskills-p {
+		text-align: center;
+	}
+
+	.contact-contents {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.phone {
+		width: 90%;
+		margin: 0 auto;
+		float:none;
+	}
+
+	.mailtell {
+		text-align: center;
+	}
+
+	.sns {
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+
+
+	.sns h2 {
+		text-align: center;
+	}
+
+	.munu-box {
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #FAFAFA;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.list-bar:first-child {
+		margin-top: 10px;
+	}
+
+	.list-bar {
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #FAFAFA
+	}
+}
