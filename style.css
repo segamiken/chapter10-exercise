@@ -322,7 +322,7 @@ header img {
 }
 
 .sns-contents {
-	width: 170px;
+	width: 200px;
 	margin: 0 auto;
 }
 
@@ -331,11 +331,16 @@ header img {
 	margin-bottom: 5px;
 }
 
+.sns-logo {
+	width:200px;
+	text-align: center;
+}
+
 .fab {
 	font-size: 50px;
 }
 
-.fa-facebook-f, .fa-twitter {
+.fa-facebook-f, .fa-twitter{
 	display: inline-block;
 	margin-right: 20px;
 }
